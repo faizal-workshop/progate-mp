@@ -1,168 +1,168 @@
 @keyframes ninjawiggle {
 
-  0%,
-  100% {
-    bottom: 50px;
-  }
+    0%,
+    100% {
+        bottom: 50px;
+    }
 
-  50% {
-    bottom: 52px;
-  }
+    50% {
+        bottom: 52px;
+    }
 }
 
 @keyframes loader {
-  to {
-    transform: rotate(360deg);
-  }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 * {
-  box-sizing: border-box;
-  text-decoration: none;
-  outline: none !important;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none !important;
 }
 
 .ninjaken {
-  display: block;
-  position: fixed;
-  z-index: 10000;
-  left: -80px;
-  bottom: 50px;
-  width: 120px;
-  height: 120px;
-  background: url(ninjaken.png) center center no-repeat;
-  background-size: contain;
-  transform: rotate(-20deg);
-  transition: .25s;
-  animation: ninjawiggle .25s infinite;
+    display: block;
+    position: fixed;
+    z-index: 10000;
+    left: -80px;
+    bottom: 50px;
+    width: 120px;
+    height: 120px;
+    background: url(../../../res/ninjaken.webp) center center no-repeat;
+    background-size: contain;
+    transform: rotate(-20deg);
+    transition: .25s;
+    animation: ninjawiggle .25s infinite;
 }
 
 .ninjaken:hover {
-  left: -25px;
-  transform: rotate(0);
-  animation: none;
+    left: -25px;
+    transform: rotate(0);
+    animation: none;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.618em;
-  background: #fafafa;
-  color: #424242;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.618em;
+    background: #fafafa;
+    color: #424242;
 }
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .profile {
-  padding: 50px 0;
-  border-bottom: solid 1px #ddd;
+    padding: 50px 0;
+    border-bottom: solid 1px #ddd;
 }
 
 .profile::after {
-  content: "";
-  display: block;
-  clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .profile .profile-image {
-  float: left;
-  width: 30%;
+    float: left;
+    width: 30%;
 }
 
 .profile .profile-image .profile-image-wrapper {
-  width: 170px;
-  height: 170px;
-  padding: 3px;
-  border-radius: 50%;
-  border: solid 2px #ddd;
+    width: 170px;
+    height: 170px;
+    padding: 3px;
+    border-radius: 50%;
+    border: solid 2px #ddd;
 }
 
 .profile .profile-image .profile-image-wrapper img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  border: solid 2px #ddd;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: solid 2px #ddd;
 }
 
 .profile .profile-user-settings,
 .profile .profile-stats,
 .profile .profile-bio {
-  float: left;
-  width: 65%;
+    float: left;
+    width: 65%;
 }
 
 .profile .profile-user-settings {
-  line-height: 3em;
+    line-height: 3em;
 }
 
 .profile .profile-user-settings .profile-user-name {
-  display: inline-block;
-  margin: 0 50px 0 0;
-  font-size: 2em;
-  font-weight: bold;
+    display: inline-block;
+    margin: 0 50px 0 0;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .profile .profile-user-settings span {
-  vertical-align: top;
+    vertical-align: top;
 }
 
 .profile .profile-user-settings .btn {
-  display: inline-block;
-  background: none;
-  cursor: pointer;
+    display: inline-block;
+    background: none;
+    cursor: pointer;
 }
 
 .profile .profile-user-settings .profile-settings-btn {
-  padding: 5px 10px;
-  border: none;
+    padding: 5px 10px;
+    border: none;
 }
 
 .profile .profile-user-settings .profile-sign-out-btn {
-  padding: 5px 20px;
-  border: solid 1px #ddd;
-  border-radius: 5px;
+    padding: 5px 20px;
+    border: solid 1px #ddd;
+    border-radius: 5px;
 }
 
 .profile .profile-stats ul {
-  margin: 15px 0;
-  padding: 0;
+    margin: 15px 0;
+    padding: 0;
 }
 
 .profile .profile-stats li {
-  display: inline-block;
-  margin-right: 50px;
+    display: inline-block;
+    margin-right: 50px;
 }
 
 .profile .profile-stats .profile-stat-count {
-  margin-right: 5px;
-  font-weight: bold;
+    margin-right: 5px;
+    font-weight: bold;
 }
 
 .profile .profile-bio {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 .profile .profile-bio p {
-  margin: 0;
-  line-height: 2em;
+    margin: 0;
+    line-height: 2em;
 }
 
 .profile .profile-bio .profile-real-name {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .loader {
-  width: 50px;
-  height: 50px;
-  margin: 30px auto;
-  line-height: 6em;
-  border: 5px solid #ccc;
-  border-bottom-color: transparent;
-  border-radius: 50%;
-  animation: loader .5s linear infinite;
+    width: 50px;
+    height: 50px;
+    margin: 30px auto;
+    line-height: 6em;
+    border: 5px solid #ccc;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    animation: loader .5s linear infinite;
 }

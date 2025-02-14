@@ -40,7 +40,7 @@
   bottom: 50px;
   width: 120px;
   height: 120px;
-  background: url(ninjaken.png) center center no-repeat;
+  background: url(../../../res/ninjaken.webp) center center no-repeat;
   background-size: contain;
   transform: rotate(-20deg);
   transition: .25s;
@@ -86,7 +86,7 @@ button {
   width: 100%;
   margin: auto;
   padding: 165px 15px 15px;
-  background: url(favicon.png) center top no-repeat;
+  background: url(../../../res/favicon.webp) center top no-repeat;
   background-size: 180px;
 }
 
@@ -136,7 +136,7 @@ button {
   display: inline-block;
   width: 100%;
   height: 280px;
-  background-image: url(ken.png);
+  background-image: url(ken.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -215,17 +215,17 @@ button {
 }
 
 .pilih #batu {
-  background: url(player-batu.png) center center no-repeat;
+  background: url(player-batu.webp) center center no-repeat;
   background-size: contain;
 }
 
 .pilih #gunting {
-  background: url(player-gunting.png) center center no-repeat;
+  background: url(player-gunting.webp) center center no-repeat;
   background-size: contain;
 }
 
 .pilih #kertas {
-  background: url(player-kertas.png) center center no-repeat;
+  background: url(player-kertas.webp) center center no-repeat;
   background-size: contain;
 }
 

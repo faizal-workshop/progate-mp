@@ -1,108 +1,108 @@
 @keyframes ninjawiggle {
 
-  0%,
-  100% {
-    bottom: 50px;
-  }
+    0%,
+    100% {
+        bottom: 50px;
+    }
 
-  50% {
-    bottom: 52px;
-  }
+    50% {
+        bottom: 52px;
+    }
 }
 
 * {
-  box-sizing: border-box;
-  text-decoration: none;
-  outline: none !important;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none !important;
 }
 
 .ninjaken {
-  display: block;
-  position: fixed;
-  z-index: 10000;
-  left: -80px;
-  bottom: 50px;
-  width: 120px;
-  height: 120px;
-  background: url(ninjaken.png) center center no-repeat;
-  background-size: contain;
-  transform: rotate(-20deg);
-  transition: .25s;
-  animation: ninjawiggle .25s infinite;
+    display: block;
+    position: fixed;
+    z-index: 10000;
+    left: -80px;
+    bottom: 50px;
+    width: 120px;
+    height: 120px;
+    background: url(ninjaken.webp) center center no-repeat;
+    background-size: contain;
+    transform: rotate(-20deg);
+    transition: .25s;
+    animation: ninjawiggle .25s infinite;
 }
 
 .ninjaken:hover {
-  left: -25px;
-  transform: rotate(0);
-  animation: none;
+    left: -25px;
+    transform: rotate(0);
+    animation: none;
 }
 
 body {
-  margin: 0;
-  padding: 30px;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.618em;
-  color: #424242;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.618em;
+    color: #424242;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-  width: 80%;
-  max-width: 180px;
+    width: 80%;
+    max-width: 180px;
 }
 
 hr {
-  height: 1px;
-  background: #ddd;
-  border: none;
+    height: 1px;
+    background: #ddd;
+    border: none;
 }
 
 main {
-  margin: 0 auto;
-  max-width: 600px;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 h1 {
-  font-size: 2em;
-  line-height: 1.2em;
+    font-size: 2em;
+    line-height: 1.2em;
 }
 
 table {
-  width: 100%;
-  border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 tr {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  transition: .25s;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    transition: .25s;
 }
 
 tr:hover {
-  background: #eee;
+    background: #eee;
 }
 
 td:first-child {
-  text-align: left;
+    text-align: left;
 }
 
 td:last-child {
-  width: 50px;
+    width: 50px;
 }
 
 .footer {
-  font-size: .75em;
+    font-size: .75em;
 }
 
 .footer a {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .footer span {
-  margin: 0 5px;
+    margin: 0 5px;
 }

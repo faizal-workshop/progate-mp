@@ -1,48 +1,48 @@
 @keyframes ninjawiggle {
 
-  0%,
-  100% {
-    bottom: 50px;
-  }
+    0%,
+    100% {
+        bottom: 50px;
+    }
 
-  50% {
-    bottom: 52px;
-  }
+    50% {
+        bottom: 52px;
+    }
 }
 
 * {
-  box-sizing: border-box;
-  text-decoration: none;
-  outline: none !important;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none !important;
 }
 
 .ninjaken {
-  display: block;
-  position: fixed;
-  z-index: 10000;
-  left: -80px;
-  bottom: 50px;
-  width: 120px;
-  height: 120px;
-  background: url(ninjaken.png) center center no-repeat;
-  background-size: contain;
-  transform: rotate(-20deg);
-  transition: .25s;
-  animation: ninjawiggle .25s infinite;
+    display: block;
+    position: fixed;
+    z-index: 10000;
+    left: -80px;
+    bottom: 50px;
+    width: 120px;
+    height: 120px;
+    background: url(../../../res/ninjaken.webp) center center no-repeat;
+    background-size: contain;
+    transform: rotate(-20deg);
+    transition: .25s;
+    animation: ninjawiggle .25s infinite;
 }
 
 .ninjaken:hover {
-  left: -25px;
-  transform: rotate(0);
-  animation: none;
+    left: -25px;
+    transform: rotate(0);
+    animation: none;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.618em;
-  background: #fafafa;
-  color: #424242;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.618em;
+    background: #fafafa;
+    color: #424242;
 }

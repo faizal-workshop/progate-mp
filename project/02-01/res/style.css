@@ -1,161 +1,161 @@
 @keyframes ninjawiggle {
 
-  0%,
-  100% {
-    bottom: 50px;
-  }
+    0%,
+    100% {
+        bottom: 50px;
+    }
 
-  50% {
-    bottom: 52px;
-  }
+    50% {
+        bottom: 52px;
+    }
 }
 
 * {
-  box-sizing: border-box;
-  text-decoration: none;
-  outline: none !important;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none !important;
 }
 
 body {
-  margin: 0;
-  padding: 15px;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.618em;
-  background: #eceff1;
-  color: #424242;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.618em;
+    background: #eceff1;
+    color: #424242;
 }
 
 .ninjaken {
-  display: block;
-  position: fixed;
-  z-index: 10000;
-  left: -80px;
-  bottom: 50px;
-  width: 120px;
-  height: 120px;
-  background: url(ninjaken.png) center center no-repeat;
-  background-size: contain;
-  transform: rotate(-20deg);
-  transition: .25s;
-  animation: ninjawiggle .25s infinite;
+    display: block;
+    position: fixed;
+    z-index: 10000;
+    left: -80px;
+    bottom: 50px;
+    width: 120px;
+    height: 120px;
+    background: url(../../../res/ninjaken.webp) center center no-repeat;
+    background-size: contain;
+    transform: rotate(-20deg);
+    transition: .25s;
+    animation: ninjawiggle .25s infinite;
 }
 
 .ninjaken:hover {
-  left: -25px;
-  transform: rotate(0);
-  animation: none;
+    left: -25px;
+    transform: rotate(0);
+    animation: none;
 }
 
 aside {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  padding: 15px;
-  background: #eceff1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 15px;
+    background: #eceff1;
 }
 
 aside .warning-container h2 {
-  margin: 0 auto 15px;
+    margin: 0 auto 15px;
 }
 
 aside .warning-container p {
-  margin: 0 auto 30px;
+    margin: 0 auto 30px;
 }
 
 aside .warning-container a {
-  padding: 10px 15px;
-  background: transparent;
-  color: #7879b9;
-  transition: .25s;
+    padding: 10px 15px;
+    background: transparent;
+    color: #7879b9;
+    transition: .25s;
 }
 
 aside .warning-container a:last-child {
-  margin-left: 5px;
-  background: #7879b9;
-  color: #fff;
-  border: solid 2px #7879b9;
-  border-radius: 5px;
+    margin-left: 5px;
+    background: #7879b9;
+    color: #fff;
+    border: solid 2px #7879b9;
+    border-radius: 5px;
 }
 
 aside .warning-container a:last-child:hover {
-  background: transparent;
-  color: #7879b9;
+    background: transparent;
+    color: #7879b9;
 }
 
 header .profile-container {
-  width: 120px;
-  height: 120px;
-  margin: 15px auto;
-  padding: 3px;
-  background: #fff;
-  border: solid 2px #ddd;
-  border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 15px auto;
+    padding: 3px;
+    background: #fff;
+    border: solid 2px #ddd;
+    border-radius: 50%;
 }
 
 header .profile-container img {
-  width: 100%;
-  height: 100%;
-  border: solid 1px #ddd;
-  border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border: solid 1px #ddd;
+    border-radius: 50%;
 }
 
 header h1 {
-  font-size: 28px;
+    font-size: 28px;
 }
 
 header p {
-  margin: 0 auto 30px;
-  padding: 0 15px;
+    margin: 0 auto 30px;
+    padding: 0 15px;
 }
 
 section ul {
-  padding: 0;
-  list-style: none;
+    padding: 0;
+    list-style: none;
 }
 
 section ul li {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 section ul li:not(:first-child) {
-  padding-top: 5px;
+    padding-top: 5px;
 }
 
 section ul li a {
-  display: inline-block;
-  width: 100%;
-  padding: 15px;
-  background: #7879b9;
-  color: #fff;
-  border: solid 2px #7879b9;
-  border-radius: 5px;
-  transition: .25s;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    background: #7879b9;
+    color: #fff;
+    border: solid 2px #7879b9;
+    border-radius: 5px;
+    transition: .25s;
 }
 
 section ul li a:hover {
-  background: transparent;
-  color: #7879b9;
+    background: transparent;
+    color: #7879b9;
 }
 
 footer a {
-  display: inline-block;
-  width: 150px;
-  height: 50px;
-  margin: 0 auto;
-  background: url(progate.png) center center no-repeat;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    background: url(progate.webp) center center no-repeat;
 }
 
 @media (min-width:700px) {
 
-  header p,
-  section ul li {
-    width: 600px;
-  }
+    header p,
+    section ul li {
+        width: 600px;
+    }
 }
