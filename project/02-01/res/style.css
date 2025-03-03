@@ -20,7 +20,7 @@ body {
     margin: 0;
     padding: 15px;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.618em;
     background: #eceff1;
@@ -55,7 +55,7 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     min-height: 100dvh;
     padding: 15px;
     background: #eceff1;
